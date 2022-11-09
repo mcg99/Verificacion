@@ -1,0 +1,198 @@
+/*****************************************
+ 	Estilos para pagina Inicio.htm
+******************************************/
+li{list-style-type:none !important;}
+.slogan a{color: #000000;display: block;float: right;margin-top: 15px; text-decoration:none !important;}
+
+.buscador {
+    background: url("../../Portals/_default/skins/ms_base/Styles/img/search.html") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #7E7E7E;
+    font-size: 10px;
+    height: 28px;
+    padding: 0 35px 0 10px;
+    width: 180px;
+    display:none; /*solicitado por claudia el 28 de Febrero del 2013*/
+}
+.buscador input{ width:165px;background-color: transparent;border: medium none;margin-top:8px;border: 0 none;color: #7E7E7E;font-size: 10px;}
+
+
+
+/*.site_footer a, .site_footer span{color: #FFFFFF;font-size: 11px;text-align: center; padding:0px 5px;}*/
+/* Ajustes DNN */
+.ControlPanel {display: none !important;}
+iframe {overflow:hidden;}
+
+/*Version 2*/
+.site_header,.site_section, .site_footer{width:100%; float:left;}
+.site_header{background: none !important;border-bottom: 0px solid #000000 !important;padding: 0 !important;}
+ /*nombre de usuario*/
+#u446-4 a{color: #666666;font-size: 13px;line-height: 1.4; text-decoration:none;}
+#u446-4 p{text-align:right;}
+
+.site_footer{ background:none !important; padding:0px !important;}
+.site_section table { margin-bottom:0px !important;}
+
+.site_footer .SkinObject{color: #666 !important;font-size: 13px !important;font-weight:normal !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

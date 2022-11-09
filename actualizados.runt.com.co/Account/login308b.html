@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from actualizados.runt.com.co/Account/login.aspx?p=0 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Nov 2022 01:38:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head id="Head1"><link href="../App_Themes/Default/colorbox.css" type="text/css" rel="stylesheet" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=9" /><title>
+	:: Actualizados ::
+</title><link href="../Public/Styles/Inicio2013.min.V1.css" rel="stylesheet" /><link href="../Public/Styles/bootstrap.min.V1.css" rel="stylesheet" /><link href="../Public/Styles/core.min.V2.css" rel="stylesheet" /><link href="../Styles/colorbox.min.V1.css" rel="stylesheet" type="text/css" /> 
+  <script src="../Scripts/jquery.min.js"></script>  
+  <script src="../Scripts/bootstrap.min.V1.js"></script>
+  <script src="../Scripts/jquery.colorbox-min.js" type="text/javascript"></script>
+  <script src="../Scripts/BloqueoClicDerecho.js" type="text/javascript"></script>     
+
+    <style>
+        .colorbox { color:rgb(141, 56, 56) !Important; }
+    </style>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".colorbox").colorbox({ iframe: true, scrolling: false, innerWidth: 800, innerHeight: 420 });
+    });
+
+    $(document).ready(function () {
+        $(".colorboxSmall").colorbox({ iframe: true, scrolling: false, innerWidth: 600, innerHeight: 300 });
+    });
+    
+  </script>
+
+<link href="../Public/Styles/Inicio2013.css" type="text/css" rel="stylesheet" /></head>
+<body>
+  <form name="form1" method="post" action="https://actualizados.runt.com.co/Account/login.aspx?p=0" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="8VCsN6ttoyeW21DdKvlz8VevCwd1pfMhGYQ5BufU3Xn6LppseH6OIbnV4aZX2D3/+zQHP9kTNsECxHT1FTW3QhbiaQHdXieyHHueuhm3f7KwUZPDp0IrEHLW/nqiX3+9MwyULmbPqRWKPtdsqGz2X0XENT2VL7PGRwRYqwOILDUczmEA7I/y3bygRWUol4bf1VKcY00BxtHk83zg8V3+EapbVel2OMK2U5J2b4pndU9Y9yzStvzWLN5FS1Qhv7S3+uwo7jFsGbgz2iIHaalr+lFadco=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CD85D8D2" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="U2C1naRNe2qo5lk1naTyXNE3NPn66Wp7zvCles/jUGsQtgxd5vRUYBiUAm1nr1AO33XCTMXBkBUYI5QGtEkFyFMTSa/+lawzv1oWQj/XKQf3f3IDzfmW93K0zE4sZezKuMLdHLT48tc24DRjojLC2z3Jno3VmQganROAcV2f2Xu8GG54aEmbC5mGt1A=" />
+</div>
+    <div>
+      
+
+
+<script>
+    function HabilitarRecordarClave() {
+        var login = $("#ccLogin_txtUsername").val();
+        if (login != null) {
+            $("#RespuestaRevisarInfoUsuario").load("/Account/revisarInfoUsuario.aspx?u=" + login + " #tbEsUsuarioExterno",
+                function () {
+                    if ($("#tbEsUsuarioExterno") != null) {
+                        var resp = $("#tbEsUsuarioExterno").val();
+
+                        if (resp == 0) $("#ccLogin_pnlOlvidoContrasenna").show();
+                    }
+                });
+        }
+    }
+</script>
+<div class="signinBox">
+    <div id="signinHold">
+        <div class="imgContain">
+            <img id="ccLogin_imgLogin" alt="Clarity" src="../Public/img/logoRUNT_833x145.jpg" style="border-width:0px;" />
+        </div>
+        <div class="signin">
+            <h2>Ingresar:</h2>
+            
+            <input name="ccLogin$txtUsername" type="text" maxlength="100" size="9" id="ccLogin_txtUsername" placeholder="Nombre" autocomplete="off" style="width:210px;" />
+            
+            <input name="ccLogin$txtPassword" type="password" maxlength="100" size="9" id="ccLogin_txtPassword" placeholder="Numero C.C" onkeyup="HabilitarRecordarClave();" style="width:210px;" />
+
+            <input type="submit" name="ccLogin$cmdLogin" value="Entrar" id="ccLogin_cmdLogin" resourcekey="cmdLogin" class="btn-primary btn btn-large botonEnviar" />
+
+            <img id="ccLogin_imgCargador" title="ProgressBar" src="../Public/img/ajax-loader.gif" style="border-width:0px;border-width: 0px; margin-left: 10px; display: none;" />
+
+            <label id="RespuestaRevisarInfoUsuario" style="display: none;"></label>
+
+            <div id="ccLogin_pnlOlvidoContrasenna" style="display:none;;">
+	
+                <!--<a href="../../Public/RecordarClave.aspx" class="colorboxSmall" id="lnkOlvidoContrasena"><h4>&#191;Olvid&oacute; su contrase&ntilde;a?</h4></a>-->
+                <a href="https://actualizados.runt.com.co/Public/RecordarClave.aspx" id="lnkOlvidoContrasena"><h4>&#191;Olvid&oacute; su contrase&ntilde;a?</h4></a>
+            
+</div>
+            
+            
+
+        </div>
+
+        <br />
+        <div align="center" class="msgExplorador">
+            <p>Para una mejor experiencia se recomienda tener los navegadores IE9, Firefox12, Chrome</p>
+        </div>
+        <input type="hidden" name="ccLogin$hfTipoInterfaz" id="ccLogin_hfTipoInterfaz" value="1" />
+    </div>
+</div>
+
+
+
+    </div>
+  </form>
+</body>
+
+<!-- Mirrored from actualizados.runt.com.co/Account/login.aspx?p=0 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Nov 2022 01:38:04 GMT -->
+</html>
